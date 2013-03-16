@@ -312,7 +312,7 @@ class Datum extends DateTime
      * Sets the given value for the given property.
      *
      * @param  string $name The property to set
-     * @param  string $vaue The value
+     * @param  string $value The value
      * @return void
      */
     public function __set($name, $value)
@@ -816,7 +816,7 @@ class Datum extends DateTime
     }
 
     /**
-     * Checks if the date is yestarday.
+     * Checks if the date is yesterday.
      *
      * @return boolean
      */
